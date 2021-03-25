@@ -29,4 +29,15 @@ brew install golang
 ```
 
 ## How to build and run this project
-
+### Run the whole program
+```ruby
+go build 
+./Golang_Project
+```
+### Add dependency
+```ruby
+# download packages imported
+go mod tidy
+# remove unused packages
+go mod tidy -v
+```
